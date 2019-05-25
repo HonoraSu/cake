@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>my-dangao</title>
+    <script type="text/javascript">
+        //rem
+        function refreshRem() {
+            var desW = 750,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
   </head>
   <body>
     <noscript>
