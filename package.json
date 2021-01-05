@@ -22,7 +22,7 @@
     "@vue/cli-plugin-pwa": "^3.0.0-rc.7",
     "@vue/cli-service": "^3.0.0-rc.7",
     "@vue/eslint-config-prettier": "^3.0.0-rc.7",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-loader": "^7.1.5",
     "cache-loader": "^1.2.2",
     "express": "^4.16.3",
